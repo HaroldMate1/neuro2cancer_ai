@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+
+data:
+  batch_size: 64
+  num_workers: 4
+
+model:
+  name: gnn
+  hidden_dim: 128
+  dropout: 0.2
+
+train:
+  epochs: 50
+  lr: 1e-4
+  early_stopping: true
